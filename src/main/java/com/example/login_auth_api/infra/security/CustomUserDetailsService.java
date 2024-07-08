@@ -2,8 +2,8 @@ package com.example.login_auth_api.infra.security;
 
 import com.example.login_auth_api.domain.user.User;
 import com.example.login_auth_api.repositories.UserRepository;
-//import com.example.loginauthapi.domain.user.User;
-//import com.example.loginauthapi.repositories.UserRepository;
+import com.example.login_auth_api.domain.user.User;
+import com.example.login_auth_api.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
